@@ -43,10 +43,18 @@ export default {
 		    searchQuery: '',
 		    gridColumns: ['Name', 'Id'],
 		    gridData: [
-		      { Name: 'os-zh-cn-bochs2.4-2:latest', Id: 'ea60087e6fc4' },
+		      { Name: 'stress-bigger2', Id: '16bc3d6ac524' },
+		      { Name: 'stress-bigger1', Id: '99dac81d63c2' },
+		      { Name: 'stress-bigger', Id: 'a1849a42a346' },
+		      { Name: 'rethinkdb', Id: '47a81cdb853b' },
+		      { Name: 'quay.io/coreos/etcd', Id: '0e97d348c238' },
+		      { Name: 'shipyard/shipyard', Id: '36fb3dc0907d' },
+		      { Name: 'alpine', Id: 'ee4603260daa' },
+		      { Name: 'redis', Id: '50e38ce0458f' },
+		      { Name: 'python', Id: '6b494b5f019c' },
 		      { Name: 'swarm', Id: '942fd5fd357e' },
 		      { Name: 'ubuntu', Id: 'e17b56e5200a' },
-		      { Name: 'quay.io/coreos/etcd', Id: '0e97d348c238' }
+		      { Name: 'registry', Id: '56cfd79a53f5' },
 		    ]
 		}
 	},
