@@ -43,10 +43,10 @@ export default {
 		    searchQuery: '',
 		    gridColumns: ['Name', 'Id'],
 		    gridData: [
-		      { Name: 'os-zh-cn-bochs2.4-2:latest', Id: 'sha256:ea600' },
-		      { Name: 'Bruce Lee', Id: '9000' },
-		      { Name: 'Jackie Chan', Id: 7000 },
-		      { Name: 'Jet Li', Id: 8000 }
+		      { Name: 'os-zh-cn-bochs2.4-2:latest', Id: 'ea60087e6fc4' },
+		      { Name: 'swarm', Id: '942fd5fd357e' },
+		      { Name: 'ubuntu', Id: 'e17b56e5200a' },
+		      { Name: 'quay.io/coreos/etcd', Id: '0e97d348c238' }
 		    ]
 		}
 	},
