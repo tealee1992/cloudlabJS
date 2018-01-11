@@ -1,4 +1,4 @@
-# cloulab2
+# cloudlab
 
 > A Vue.js project
 
