@@ -35,7 +35,7 @@
                 </p>                
             </div>
             <p class="p" v-if="labUrl">
-                <span>去实验</span>
+                <span>Work Now!</span>
                 <a class="glyphicon glyphicon-share-alt" target="_blank" v-bind:href="labUrl"></a>
 
             </p>
@@ -82,6 +82,7 @@ import "regenerator-runtime/runtime"
                     }                    
                     await Init_student(this,data)
                 }catch(err) {
+                    console.log("created await错误")
                     console.log(err)
                 }
             }
