@@ -1,6 +1,6 @@
 <template>
   <div>
-  <div style="width:740px;margin-left:150px">
+  <div style="width:830px;margin-left:150px">
     <div>
       <h3>11.0.0.171</h3>
     </div>
@@ -17,17 +17,17 @@
     <el-table-column
       prop="router"
       label="路由器端口"
-      width="120">
+      width="150">
     </el-table-column>
     <el-table-column
       prop="host"
       label="主机端口"
-      width="150">
+      width="180">
     </el-table-column>
     <el-table-column
       prop="container"
       label="容器"
-      width="150">
+      width="180">
     </el-table-column>
     <el-table-column
       prop="port"
@@ -37,7 +37,7 @@
   </el-table>
 </div>
 
-  <div style="width:740px;margin-left:150px">
+  <div style="width:830px;margin-left:150px">
     <div>
       <h3>11.0.0.172</h3>
     </div>
@@ -54,17 +54,17 @@
     <el-table-column
       prop="router"
       label="路由器端口"
-      width="120">
+      width="150">
     </el-table-column>
     <el-table-column
       prop="host"
       label="主机端口"
-      width="150">
+      width="180">
     </el-table-column>
     <el-table-column
       prop="container"
       label="容器"
-      width="150">
+      width="180">
     </el-table-column>
     <el-table-column
       prop="port"
@@ -74,7 +74,7 @@
   </el-table>
 </div>
 
-  <div style="width:740px;margin-left:150px">
+  <div style="width:830px;margin-left:150px">
     <div>
       <h3>11.0.0.176</h3>
     </div>
@@ -91,17 +91,17 @@
     <el-table-column
       prop="router"
       label="路由器端口"
-      width="120">
+      width="150">
     </el-table-column>
     <el-table-column
       prop="host"
       label="主机端口"
-      width="150">
+      width="180">
     </el-table-column>
     <el-table-column
       prop="container"
       label="容器"
-      width="150">
+      width="180">
     </el-table-column>
     <el-table-column
       prop="port"
