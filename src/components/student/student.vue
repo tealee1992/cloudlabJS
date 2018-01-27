@@ -64,7 +64,7 @@ import store from '@/vuex/store'
 import Promise from 'promise-polyfill'
 import "regenerator-runtime/runtime"
     export default {
-        data() {
+        data: function() {
             return {
                 labUrl: "http://www.baidu.com",
                 container: {
@@ -74,7 +74,7 @@ import "regenerator-runtime/runtime"
         },
         created: function() {
             
-            async function initialize () {
+            async initialize =>{
                 try{
                     const authUser = JSON.parse(window.localStorage.getItem('User'))
                     let data = {

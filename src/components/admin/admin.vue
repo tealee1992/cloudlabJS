@@ -60,7 +60,7 @@ export default {
 	},
 	created: function() {
 		console.log("in created")
-		async function getimage () {
+		async  getimage=> {
 			try{
 				await getLabImage(this)
 			}catch(err) {
