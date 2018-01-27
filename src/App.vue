@@ -44,8 +44,8 @@ export default {
   data() {
     return {
       isActive: 0,
-      menu: ['Home','Console','Containers','LabTable'],
-      route: ['/Home','/admin','/container','/student'],
+      menu: ['Home','Images','Containers','Stats','Ports','LabTable'],
+      route: ['/Home','/admin','/container','/stats','/ports','/student'],
     }
   },
   name: 'app',

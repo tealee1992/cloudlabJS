@@ -5,6 +5,8 @@ import Login from '@/components/login/Login.vue'
 import Register from '@/components/login/Register.vue'
 import Admin from '@/components/admin/admin.vue'
 import Grid from '@/components/grid/grid.vue'
+import Stats from '@/components/admin/stats.vue'
+import Ports from '@/components/admin/ports.vue'
 import Container from '@/components/admin/container.vue'
 import Student from '@/components/student/student.vue'
 import Home from '@/components/Home.vue'
@@ -47,6 +49,18 @@ const routes = [
 				}
 			]
 		},
+		{
+			path:'/stats',
+			name:'stats',
+			component:Stats,
+			meta: {requiresAuth: true, adminAuth: true, studentAuth: false}
+		},
+		{
+			path:'/ports',
+			name:'ports',
+			component:Ports,
+			meta: {requiresAuth: true, adminAuth: true, studentAuth: false}
+		},				
 		{
 			path:'/container',
 			name:'container',
